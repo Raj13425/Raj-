@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trenzzy</title>
+  <style>
+    body {font-family: Arial, sans-serif;margin: 0;background: #f5f5f5;}
+    header {background: #111;color: white;padding: 20px;text-align: center;}
+    nav a {color: white;margin: 0 15px;text-decoration: none;}
+    .hero {display: flex;align-items: center;justify-content: center;flex-direction: column;
+      text-align: center;padding: 60px 20px;background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47') center/cover no-repeat;
+      color: white;height: 80vh;}
+    .hero h1 {font-size: 48px;margin-bottom: 10px;}
+    .hero p {font-size: 20px;margin-bottom: 20px;}
+    .hero button {background: #ff4c4c;color: white;padding: 15px 30px;font-size: 18px;border: none;cursor: pointer;border-radius: 5px;}
+    .section {padding: 50px 20px;text-align: center;}
+    .products {display: grid;grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));gap: 20px;padding: 20px;}
+    .product {background: white;border-radius: 8px;overflow: hidden;box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+    .product img {width: 100%;height: 300px;object-fit: cover;}
+    footer {background: #111;color: white;text-align: center;padding: 20px;margin-top: 50px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Trenzzy</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Style That Speaks</h1>
+  <p>Trendy fashion for all.</p>
+  <button>Shop Now</button>
+</section>
+
+<section class="section">
+  <h2>Collection</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1542062703-6bc1b4f1cf3b" alt="T-shirt">
+      <h3>T-shirt</h3>
+      <p>Soft & stylish.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1520975922071-a28a2f7a4e7e" alt="Hoodie">
+      <h3>Hoodie</h3>
+      <p>Warm comfort.</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1583224587091-828d1e35e6a7" alt="Jacket">
+      <h3>Jacket</h3>
+      <p>Cozy style.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Trenzzy</p>
+</footer>
+
+</body>
+</html>
